@@ -1,0 +1,23 @@
+Standalone java library for decompressing RAR archives. 
+
+This is a fork of the jukka/java-unrar repo, which was a version specifically
+for tika, which in turn was a fork of an old sourceforge-host port of the 
+unrar library that is no longer available. 
+
+This is library is available from the bedatadriven repo, you can include
+in a maven project with the following:
+
+	<repositories>
+		<repository>
+			<id>bedatadriven-public</id>
+			<url>http://nexus.bedatadriven.com/content/groups/public</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.bedatadriven</groupId>
+			<artifactId>unrar</artifactId>
+			<version>1.7.1</version>
+		</dependency>
+	</dependencies>
