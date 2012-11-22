@@ -19,17 +19,15 @@ package de.innosystec.unrar.unpack.decode;
 
 /**
  * DOCUMENT ME
- * 
+ *
  * @author $LastChangedBy$
  * @version $LastChangedRevision$
  */
-public class BitDecode extends Decode
-{
-	/**
-	 * 
-	 */
-	public BitDecode()
-	{
-		decodeNum = new int[Compress.BC];
-	}
+public class BitDecode extends Decode {
+  /**
+   *
+   */
+  public BitDecode() {
+    decodeNum = new int[Compress.BC];
+  }
 }

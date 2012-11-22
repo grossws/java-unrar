@@ -25,5 +25,5 @@ package de.innosystec.unrar.unsigned;
  * @version $LastChangedRevision$
  */
 public class UnsignedInteger {
-	
+
 }

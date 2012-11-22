@@ -19,18 +19,16 @@ package de.innosystec.unrar.unpack.decode;
 
 /**
  * DOCUMENT ME
- * 
+ *
  * @author $LastChangedBy$
  * @version $LastChangedRevision$
  */
-public class RepDecode extends Decode
-{
-	/**
-	 * 
-	 */
-	public RepDecode()
-	{
-		decodeNum = new int[Compress.RC];
-	}
+public class RepDecode extends Decode {
+  /**
+   *
+   */
+  public RepDecode() {
+    decodeNum = new int[Compress.RC];
+  }
 
 }

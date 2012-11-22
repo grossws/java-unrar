@@ -19,18 +19,16 @@ package de.innosystec.unrar.unpack.decode;
 
 /**
  * DOCUMENT ME
- * 
+ *
  * @author $LastChangedBy$
  * @version $LastChangedRevision$
  */
-public class LitDecode extends Decode
-{
-	/**
-	 * 
-	 */
-	public LitDecode()
-	{
-		decodeNum = new int[Compress.NC];
-	}
+public class LitDecode extends Decode {
+  /**
+   *
+   */
+  public LitDecode() {
+    decodeNum = new int[Compress.NC];
+  }
 
 }
