@@ -6,10 +6,14 @@
 
   <groupId>com.bedatadriven</groupId>
   <artifactId>unrar</artifactId>
-  <version>1.7.1</version>
+  <version>1.7.2-SNAPSHOT</version>
 
   <name>Java UnRar</name>
   <url>http://sourceforge.net/projects/java-unrar</url>
+
+  <properties>
+    <jdk.version>1.5</jdk.version>
+  </properties>
 
   <dependencies>
     <dependency>
@@ -22,18 +26,19 @@
   <build>
     <plugins>
       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.5.1</version>
+
         <configuration>
-          <source>1.5</source>
-          <target>1.5</target>
+          <source>${jdk.version}</source>
+          <target>${jdk.version}</target>
         </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
         <version>2.1.2</version>
-
-        <inherited>true</inherited>
 
         <executions>
           <execution>
